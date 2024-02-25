@@ -1,0 +1,23 @@
+.pro {
+  background-color: black;
+}
+h1 {
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+p {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.icon {
+  font-weight: 500;
+  font-family: "Font Awesome 5 Brands";
+  color: white;
+}
