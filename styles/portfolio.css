@@ -1,3 +1,8 @@
+body {
+  background-color: black;
+  color: azure;
+}
+
 .hero {
   background-color: black;
   text-align: center;
@@ -11,7 +16,7 @@
   font-style: normal;
   font-size: 65px;
 }
-p {
+.hero p {
   color: white;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -36,4 +41,25 @@ p {
   padding: 18px 30px;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 60px;
+}
+p {
+  font-size: 18px;
+  font-family: "Roboto Mono", monospace;
+  line-height: 1.5;
+  color: aliceblue;
+}
+.btn-branding-outline {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid;
+  line-height: 10px;
+  padding: 18px 30px;
+  border-radius: 4px;
+  color: black;
+  background: #ffd43b;
 }
