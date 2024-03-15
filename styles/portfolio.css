@@ -63,3 +63,23 @@ p {
   color: black;
   background: #ffd43b;
 }
+.about-section-content {
+  margin: 40px;
+  padding-top: 30px;
+}
+h3 {
+  color: #f65282;
+  font-family: "Roboto Mono", monospace;
+  width: 700;
+  font-size: 18;
+  line-height: 21.09px;
+}
+.about {
+  font-size: 22px;
+  font-weight: bold;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin: 20px;
+}
