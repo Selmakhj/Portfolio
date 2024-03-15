@@ -71,7 +71,7 @@ h3 {
   color: #f65282;
   font-family: "Roboto Mono", monospace;
   width: 700;
-  font-size: 18;
+  font-size: 20px;
   line-height: 21.09px;
 }
 .about {
@@ -98,4 +98,16 @@ h3 {
 .content p {
   font-size: 14px;
   color: white;
+}
+.contact {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 84.38;
+  font-family: "Roboto Mono", monospace;
+}
+a {
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
 }
