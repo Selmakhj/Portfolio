@@ -111,18 +111,14 @@ a {
   font-weight: 400;
   line-height: 30px;
 }
-.navigate {
-}
 nav {
   padding: 20px 0;
-
   background-color: #202020;
 }
 nav ul {
   padding: 0;
   margin: 0;
-  margin-left: 40px;
-  margin-right: 30px;
+  margin-right: 40px;
   color: #ffffff;
 }
 nav li {
@@ -144,4 +140,21 @@ nav a:hover {
 }
 nav li:active a {
   color: var(--branding-color);
+}
+footer {
+  background-color: #202020;
+  margin: 0;
+}
+footer .social-links a {
+  margin: 0 20px 20px 0;
+  color: var(--branding-color);
+  background-color: #202020;
+  padding: 15px;
+  border-radius: 50px;
+  font-size: 22px;
+  transition: all 150ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
 }
