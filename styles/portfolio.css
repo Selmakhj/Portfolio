@@ -73,6 +73,7 @@ h3 {
   width: 700;
   font-size: 20px;
   line-height: 21.09px;
+  margin-top: 50px;
 }
 .about {
   font-size: 22px;
@@ -84,7 +85,7 @@ h3 {
   margin: 20px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .content h1 {
   font-size: 64px;
@@ -110,6 +111,7 @@ a {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+  text-decoration: none;
 }
 nav {
   padding: 20px 0;

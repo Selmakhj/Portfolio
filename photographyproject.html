@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Camera Buying Guide</title>
+    <style>
+      .fullbody {
+        margin: 30px auto;
+        padding: 20px;
+        border: 10px auto;
+        border-radius: 15px;
+        border-color: #fff;
+        width: 60%;
+        background: linear-gradient(
+          99.6deg,
+          rgb(112, 128, 152) 10.6%,
+          rgb(242, 227, 234) 32.9%,
+          rgb(234, 202, 213) 52.7%,
+          rgb(220, 227, 239) 72.8%,
+          rgb(185, 205, 227) 81.1%,
+          rgb(154, 180, 212) 102.4%
+        );
+      }
+      h1,
+      h2 {
+        text-align: center;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+
+      h1 {
+        color: #c54c82;
+        font-size: 40px;
+        line-height: 45px;
+        margin: 0;
+      }
+
+      h2 {
+        margin: 10px;
+        font-size: 26px;
+        line-height: 50px;
+        color: #4d12ee;
+        font-weight: bold;
+        display: block;
+      }
+      img {
+        display: block;
+        margin: 15px auto;
+        border-radius: 20px;
+      }
+
+      p {
+        font-size: 20px;
+        opacity: 0.7;
+        text-align: center;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        color: #10316b;
+      }
+      .link {
+        color: #10316b;
+        text-align: left;
+        display: block;
+        font-size: 15px;
+        font-family: "Times New Roman", Times, serif;
+        line-height: 10px;
+        margin: auto 40px;
+      }
+
+      button {
+        display: block;
+        margin: 20px auto;
+        border: 1px solid#c54c82;
+        background: #c54c82;
+        color: #fff;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 16px 24px;
+        border-radius: 30px;
+        transition: all 200ms ease;
+        box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background: white;
+        color: #c54c82;
+        border: 1px solid#c54c82;
+      }
+      .info {
+        text-align: center;
+        font-size: 15px;
+        color: rgb(34, 25, 75);
+      }
+      .contactinfo {
+        color: #4d12ee;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="fullbody">
+      <h1>📷<br />For photography lovers</h1>
+      <h2>What is your dream Camera?</h2>
+      <hr />
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/098/862/original/IMG_8864.JPG?1696330106"
+        width="450"
+      />
+      <hr />
+      <p>
+        <strong>
+          The first partially successful photograph of a camera image was made
+          in approximately 1816 by <em>Nicéphore Niépce</em>,using a very small
+          camera of his own making and a piece of paper coated with silver
+          chloride, which darkened where it was exposed to light.
+        </strong>
+      </p>
+      <small>
+        <a
+          href="https://en.wikipedia.org/wiki/History_of_the_camera#Early_fixed_images"
+          class="link"
+          target="_blank"
+        >
+          Read on the following page</a
+        >
+      </small>
+      <button>Buy Camera</button>
+      <div class="info">
+        <span> please contact us through </span>
+        <span class="contactinfo">Email</span> or
+        <span class="contactinfo">Instagram </span>
+      </div>
+    </div>
+  </body>
+  <script>
+    function camerabuyer() {
+      let name = prompt("what is your name?");
+      let email = prompt("what is your email address");
+      let budget = prompt("How much is your budget?");
+      if (budget >= 1000) {
+        alert("Thanks " + name + " 🤩" + ", we'll send you our camera models.");
+      } else {
+        alert(
+          "sorry " +
+            name +
+            " 😔" +
+            ", we don't have any model for you currently."
+        );
+      }
+    }
+    let ChangeCityButton = document.querySelector("button");
+    ChangeCityButton.addEventListener("click", camerabuyer);
+  </script>
+</html>
